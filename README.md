@@ -1,1 +1,1 @@
-# myCarouselApp
+# carouselApp
