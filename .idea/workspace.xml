@@ -20,30 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponent/carouselStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/imagesDir/image_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storeDir/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +47,34 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607349705278</updated>
-      <workItem from="1607349717537" duration="1187000" />
+      <workItem from="1607349717537" duration="2125000" />
     </task>
     <servers />
   </component>
@@ -97,5 +103,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607351078905">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/84.0.1282.768@84.0.1282.768" timestamp="1607351078905" />
+    <state width="1259" height="191" key="GridCell.Tab.0.bottom" timestamp="1607351524342">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1259" height="191" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1607351524342" />
+    <state width="1259" height="191" key="GridCell.Tab.0.center" timestamp="1607351524341">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1259" height="191" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1607351524341" />
+    <state width="1259" height="191" key="GridCell.Tab.0.left" timestamp="1607351524341">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1259" height="191" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1607351524341" />
+    <state width="1259" height="191" key="GridCell.Tab.0.right" timestamp="1607351524342">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1259" height="191" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1607351524342" />
   </component>
 </project>
