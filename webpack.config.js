@@ -25,7 +25,12 @@ module.exports = {
             },
             {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-                type: 'asset/resource'
+                //type: 'asset/resource',
+                loader: 'file-loader',
+                options: {
+                    name: 'images/[name].[ext]',
+                    context: ''
+                }
             }
 
         ]

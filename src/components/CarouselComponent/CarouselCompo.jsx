@@ -54,9 +54,11 @@ const CarouselComponent = (props) => {
     let touchMove = (event) => {
         setMoveTouch(event.touches[0].clientX);
         if (moveTouch < event.touches[0].clientX) {
-            setX(x + 0.5);
+            setX(x + 2);
+            setTransition('1s ease');
         } else if (moveTouch > event.touches[0].clientX) {
-            setX(x - 0.5);
+            setX(x - 2);
+            setTransition('1s ease');
         }
     }
 
