@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './carouselStyleHOC.css'
+import './carouselStyle.css'
 
-const CarouselComponentHOC = (props) => {
+const CarouselComponent = (props) => {
     const [x, setX] = useState(-102)
     const [transition, setTransition] = useState('0.5s ease')
     const [activeImage, setActiveImage] = useState(0)
@@ -122,4 +122,4 @@ const CarouselComponentHOC = (props) => {
         </div>
     )
 }
-export default CarouselComponentHOC;
+export default CarouselComponent;
