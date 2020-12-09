@@ -13,7 +13,7 @@ const CarouselComponent = ({ imageArr }) => {
     let rightFoo = () => {
         activeImage === (imageArr.length - 1) ? setActiveImage(0) : setActiveImage(activeImage + 1)
         setX((activeImage + 2) * -102);
-        setTransition('0.3s ease');
+        setTransition('0.5s ease');
         setBtnDisabling(true)
     }
 
@@ -21,7 +21,7 @@ const CarouselComponent = ({ imageArr }) => {
         activeImage === 0 ? setActiveImage(imageArr.length - 1) : setActiveImage(activeImage - 1)
         if ((activeImage + 2) * -102 <= -102) {
             setX(activeImage * -102)
-            setTransition('0.3s ease');
+            setTransition('0.5s ease');
         }
         setBtnDisabling(true)
     }

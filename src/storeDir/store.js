@@ -1,16 +1,44 @@
+import img1 from './img/img1.jpg';
+import img2 from './img/gory-mountains-nochnye-gory-rassvet-solntse-sun-rozovoe-soln.jpg';
+import img3 from './img/green-mountains-peizazh-zelenyi-peizazh-gory-nochnoe-nebo-no.jpg';
+import img4 from './img/okeania-kaloyan-stoyanov-by-kaloyan-stoyanov-devushka-rusalk.jpg';
+import img5 from './img/pineaple-yellow-bubbles.jpg';
+import img6 from './img/shakhmaty-chess-peshka-ladia-kon-slon-ferz-korol.jpg';
+import img7 from './img/sipukha-noch-olenevidnaia-sipukha-luna.jpg';
+
+import penguinMoon from './img/penguin-moon-cliff-shilouette-simple-background-black-backgr.jpg';
+import goroMinimalizm from './img/gorod-minimalizm-reka-otrazhenie-noch-nochnoi-gorod.jpg';
+import kotMinimalizm from './img/kot-minimalizm-rycar-cats.jpg';
+import lesGory from './img/les-gory-utro-ranok-rassvet-derevia-pokhod-prival-bashnia.jpg';
+import goryNoch from './img/gory-noch-nochnye-gory-lis-sinii-lis-les-luna-polnolunie-pei.jpg';
+import igrovyeKnopki from './img/w-a-s-d-igrovye-knopki-klavishi-bukvy-klaviatura-wasd.jpg';
+import usyBabochka from './img/usy-babochka-pechene.jpg';
+import catFeline from './img/cat-feline-back-simple-background-artwork-digital-art-minima.jpg';
+import planetSatellites from './img/planet-satellites-orbit-space-simple-background-black-backgr.jpg';
+import girlRedEyes from './img/girl-red-eyes-white-hair-long-hair-necklace-dark-simple-back.jpg';
+
 
 const store = {
     imageArr: [
-        { id: 0, imageURL: 'https://img5.goodfon.ru/original/800x480/4/5f/penguin-moon-cliff-shilouette-simple-background-black-backgr.jpg' },
-        { id: 1, imageURL: 'https://img5.goodfon.ru/original/800x480/d/17/gorod-minimalizm-reka-otrazhenie-noch-nochnoi-gorod.jpg' },
-        { id: 2, imageURL: 'https://img1.goodfon.ru/original/800x480/6/51/kot-minimalizm-rycar-cats.jpg' },
-        { id: 3, imageURL: 'https://img5.goodfon.ru/original/800x480/f/ab/les-gory-utro-ranok-rassvet-derevia-pokhod-prival-bashnia.jpg' },
-        { id: 4, imageURL: 'https://img5.goodfon.ru/original/800x480/9/46/gory-noch-nochnye-gory-lis-sinii-lis-les-luna-polnolunie-pei.jpg' },
-        { id: 5, imageURL: 'https://img4.goodfon.ru/original/800x480/c/28/w-a-s-d-igrovye-knopki-klavishi-bukvy-klaviatura-wasd.jpg' },
-        { id: 6, imageURL: 'https://img5.goodfon.ru/original/800x480/1/ec/usy-babochka-pechene.jpg' },
-        { id: 7, imageURL: 'https://img5.goodfon.ru/original/800x480/7/4b/cat-feline-back-simple-background-artwork-digital-art-minima.jpg' },
-        { id: 8, imageURL: 'https://img5.goodfon.ru/original/800x480/5/c7/planet-satellites-orbit-space-simple-background-black-backgr.jpg' },
-        { id: 9, imageURL: 'https://img5.goodfon.ru/original/800x480/c/f0/girl-red-eyes-white-hair-long-hair-necklace-dark-simple-back.jpg' },
+        { id: 0, imageURL: penguinMoon },
+        { id: 1, imageURL: goroMinimalizm },
+        { id: 2, imageURL: kotMinimalizm },
+        { id: 3, imageURL: lesGory },
+        { id: 4, imageURL: goryNoch },
+        { id: 5, imageURL: igrovyeKnopki },
+        { id: 6, imageURL: usyBabochka },
+        { id: 7, imageURL: catFeline },
+        { id: 8, imageURL: planetSatellites },
+        { id: 9, imageURL: girlRedEyes },
+    ],
+    imageArr_2: [
+        { id: 0, imageURL: img1 },
+        { id: 1, imageURL: img2 },
+        { id: 2, imageURL: img3 },
+        { id: 3, imageURL: img4 },
+        { id: 4, imageURL: img5 },
+        { id: 5, imageURL: img6 },
+        { id: 6, imageURL: img7 },
     ]
 }
 

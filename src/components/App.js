@@ -1,15 +1,17 @@
 import React, { lazy, Suspense } from "react";
 import "./App.css";
-//import CarouselComponent from "./CarouselComponent/CarouselComponent.jsx"
+//import CarouselComponentHOC from "./CarouselComponentHOC/CarouselCompoHOC.jsx";
 
-const CarouselComponent = lazy(()=> import("./CarouselComponent/CarouselComponent.jsx"))
+const CarouselComponentHOC = lazy(()=> import("./CarouselComponentHOC/CarouselCompoHOC.jsx"))
 
 const App = (props)=>{
     return(
         <div className="appMainBox">
             <Suspense fallback={<div>Loading data ...</div>}>
-                <CarouselComponent imageArr={props.store.imageArr} />
+                <CarouselComponentHOC imageArr={props.store.imageArr} />
+                <CarouselComponentHOC imageArr={props.store.imageArr_2}/>
             </Suspense>
+
         </div>
     )
 }

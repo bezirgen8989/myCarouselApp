@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+//import img from './src/storeDir/img'
 
 module.exports = {
     //указание начальной точки
@@ -22,7 +23,13 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+                type: 'asset/resource'
+                // include: /img/,
             }
+
         ]
     },
     plugins: [
