@@ -21,29 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/0f87b389cb80f9d84eb3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/18a6b3f6cf6aaa4ab313.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/35940b0bf0765128dd13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/5b786a16445e1a6a1b3c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/5c4f9dbfe767aa7fedec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/680d9b655ca1f8b7c04a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/6b0bceea0c985772cb6f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/780.index_bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/buildApp/780.index_bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/849d72d9e6de13ec6ac1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/86b1707ca0261266a1d4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/8cc9d7b725199da8294b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/b199e3d2d9517516a531.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/b898c8a2210ad2c9c4c0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/bc2f5a746040455931c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/cacd4f997915cd4bd1ca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/cec55201117b5af41709.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/d258dc50e465d572a585.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/e0b5b4b7fdd80ccaeaed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/index_bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/buildApp/index_bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselCompo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselCompo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +103,7 @@
       <updated>1607349705278</updated>
       <workItem from="1607349717537" duration="2970000" />
       <workItem from="1607500144540" duration="1257000" />
-      <workItem from="1607502880881" duration="14858000" />
+      <workItem from="1607502880881" duration="16092000" />
     </task>
     <servers />
   </component>
@@ -152,25 +130,25 @@
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/84.0.1282.768@84.0.1282.768" timestamp="1607351078905" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1607525093435">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1607525229265">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1607352912640" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525093435" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1607525093434">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229265" />
+    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1607525229264">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525093434" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1607525093434">
+    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229264" />
+    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1607525229264">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525093434" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1607525093434">
+    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229264" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1607525229264">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525093434" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229264" />
   </component>
 </project>

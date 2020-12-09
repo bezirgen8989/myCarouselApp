@@ -82,7 +82,11 @@ const CarouselComponent = (props) => {
                     src={props.imageArr[props.imageArr.length - 1].imageURL}
                     onTransitionEnd={transitionEndFooForEnd}
                     alt={props.imageArr[props.imageArr.length - 1].id}
-                    style={{ transform: `translateX(${x}%)`, transition: transition, opacity: 0.2 }}
+                    style={{
+                        transform: `translateX(${x}%)`,
+                        transition: transition,
+                        opacity: activeImage === props.imageArr.length - 1 ? 1 : 0.2
+                    }}
                 />
                 {props.imageArr.map((item, id) => {
                     return (
@@ -102,7 +106,10 @@ const CarouselComponent = (props) => {
                     onTransitionEnd={transitionEndFoo}
                     src={props.imageArr[0].imageURL}
                     alt={props.imageArr[0].id}
-                    style={{ transform: `translateX(${x}%)`, transition: transition, opacity: 0.2 }}
+                    style={{
+                        transform: `translateX(${x}%)`,
+                        transition: transition,
+                        opacity: activeImage === props.imageArr[0].id ? 1 : 0.2 }}
                 />
                 <button id='left' onClick={leftFoo} disabled={btnDisabling}></button>
                 <button id='right' onClick={rightFoo} disabled={btnDisabling}></button>
