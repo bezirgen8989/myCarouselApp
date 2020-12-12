@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import './carouselStyle.css'
 
 const CarouselComponent = (props) => {
@@ -8,7 +8,6 @@ const CarouselComponent = (props) => {
     const [startTouch, setStartTouch] = useState(0)
     const [moveTouch, setMoveTouch] = useState(0)
     const [btnDisabling, setBtnDisabling] = useState(false)
-
 
     let rightFoo = () => {
         activeImage === (props.imageArr.length - 1) ? setActiveImage(0) : setActiveImage(activeImage + 1)
@@ -69,6 +68,11 @@ const CarouselComponent = (props) => {
             leftFoo();
         }
     }
+    useEffect(()=>{
+        console.log ('component did mount')
+    },[])
+
+    console.log ('render')
 
     return (
         <div className='mainBox'>

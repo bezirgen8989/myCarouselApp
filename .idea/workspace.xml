@@ -20,13 +20,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/CarouselCompoNew.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/carouselNewStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/780.index_bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/cat-feline-back-simple-background-artwork-digital-art-minima.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/girl-red-eyes-white-hair-long-hair-necklace-dark-simple-back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/gorod-minimalizm-reka-otrazhenie-noch-nochnoi-gorod.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/gory-mountains-nochnye-gory-rassvet-solntse-sun-rozovoe-soln.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/gory-noch-nochnye-gory-lis-sinii-lis-les-luna-polnolunie-pei.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/green-mountains-peizazh-zelenyi-peizazh-gory-nochnoe-nebo-no.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/kot-minimalizm-rycar-cats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/les-gory-utro-ranok-rassvet-derevia-pokhod-prival-bashnia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/okeania-kaloyan-stoyanov-by-kaloyan-stoyanov-devushka-rusalk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/penguin-moon-cliff-shilouette-simple-background-black-backgr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/pineaple-yellow-bubbles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/planet-satellites-orbit-space-simple-background-black-backgr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/shakhmaty-chess-peshka-ladia-kon-slon-ferz-korol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/sipukha-noch-olenevidnaia-sipukha-luna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/usy-babochka-pechene.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/images/w-a-s-d-igrovye-knopki-klavishi-bukvy-klaviatura-wasd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/index_bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildApp/index_bundle.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselCompo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselCompo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storeDir/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeDir/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,13 +80,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/CarouselComponentHOC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/CarouselComponentNew/ContentComponent" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ReactWithCRA\myCarouselApp\src\components\CarouselComponentNew\ContentComponent" />
+      <recent name="D:\ReactWithCRA\myCarouselApp\src\components\CarouselComponentNew" />
       <recent name="D:\ReactWithCRA\myCarouselApp\src\components\CarouselComponentHOC" />
       <recent name="D:\ReactWithCRA\myCarouselApp\src\components" />
     </key>
@@ -87,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +143,11 @@
       <updated>1607349705278</updated>
       <workItem from="1607349717537" duration="2970000" />
       <workItem from="1607500144540" duration="1257000" />
-      <workItem from="1607502880881" duration="16092000" />
+      <workItem from="1607502880881" duration="16265000" />
+      <workItem from="1607585437383" duration="2922000" />
+      <workItem from="1607599517344" duration="5282000" />
+      <workItem from="1607662907708" duration="16213000" />
+      <workItem from="1607754441060" duration="10622000" />
     </task>
     <servers />
   </component>
@@ -130,25 +174,33 @@
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/84.0.1282.768@84.0.1282.768" timestamp="1607351078905" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1607525229265">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1607754599365">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1607352912640" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229265" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1607525229264">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599365" />
+    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1607754599364">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229264" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1607525229264">
+    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599364" />
+    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1607754599364">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229264" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1607525229264">
+    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599364" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1607754599365">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607525229264" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599365" />
+    <state x="1388" y="82" width="1188" height="699" maximized="true" key="dock-window-1" timestamp="1607680791037">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1388" y="82" width="1188" height="699" maximized="true" key="dock-window-1/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607680791037" />
+    <state x="339" y="231" key="run.anything.popup" timestamp="1607687269818">
+      <screen x="86" y="0" width="1194" height="1024" />
+    </state>
+    <state x="339" y="231" key="run.anything.popup/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607687269818" />
   </component>
 </project>

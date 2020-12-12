@@ -1,0 +1,38 @@
+.carouselMainBox{
+    border: 1px solid white;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    margin: 5px auto;
+    display: inline-flex;
+}
+.lastImg, .firstImage{
+    position: relative;
+    min-width: 100%;
+}
+.lastImg img, .firstImage img{
+    width: 96%;
+}
+
+.itemBox{
+    position: relative;
+    min-width: 100%;
+    /*border: 1px solid red;*/
+
+}
+
+.itemBox img{
+    width: 96%;
+}
+
+.info{
+    color: white;
+
+}
+.right{
+    position: absolute;
+}
+.carouselMainBox div div span{
+    display: flex;
+    margin-left: 5%;
+}

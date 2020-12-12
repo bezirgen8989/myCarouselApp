@@ -5,7 +5,6 @@ import img4 from './img/okeania-kaloyan-stoyanov-by-kaloyan-stoyanov-devushka-ru
 import img5 from './img/pineaple-yellow-bubbles.jpg';
 import img6 from './img/shakhmaty-chess-peshka-ladia-kon-slon-ferz-korol.jpg';
 import img7 from './img/sipukha-noch-olenevidnaia-sipukha-luna.jpg';
-
 import penguinMoon from './img/penguin-moon-cliff-shilouette-simple-background-black-backgr.jpg';
 import goroMinimalizm from './img/gorod-minimalizm-reka-otrazhenie-noch-nochnoi-gorod.jpg';
 import kotMinimalizm from './img/kot-minimalizm-rycar-cats.jpg';
@@ -32,13 +31,13 @@ const store = {
         { id: 9, imageURL: girlRedEyes },
     ],
     imageArr_2: [
-        { id: 0, imageURL: img1 },
-        { id: 1, imageURL: img2 },
-        { id: 2, imageURL: img3 },
-        { id: 3, imageURL: img4 },
-        { id: 4, imageURL: img5 },
-        { id: 5, imageURL: img6 },
-        { id: 6, imageURL: img7 },
+        { id: 0, imageURL: img1, info: 'slon', likesCount: Math.round(Math.random()*5 ) },
+        { id: 1, imageURL: img2, info: 'gory', likesCount: Math.round(Math.random()*5 ) },
+        { id: 2, imageURL: img3, info: 'green', likesCount: Math.round(Math.random()*5 ) },
+        { id: 3, imageURL: img4, info: 'okeania', likesCount: Math.round(Math.random()*5 ) },
+        { id: 4, imageURL: img5, info: 'pineaple', likesCount: Math.round(Math.random()*5 ) },
+        { id: 5, imageURL: img6, info: 'shakhmaty', likesCount: Math.round(Math.random()*5 ) },
+        { id: 6, imageURL: img7, info: 'sipukha', likesCount: Math.round(Math.random()*5 ) },
     ]
 }
 

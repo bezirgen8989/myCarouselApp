@@ -2,5 +2,6 @@ body{
     background-color: dimgray;
 }
 .appMainBox{
-    margin: 0;
+    margin: 0 auto;
+    width: content-box;
 }
