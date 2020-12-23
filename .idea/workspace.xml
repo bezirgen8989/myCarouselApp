@@ -20,38 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/CarouselCompoNew.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/carouselNewStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/780.index_bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/cat-feline-back-simple-background-artwork-digital-art-minima.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/girl-red-eyes-white-hair-long-hair-necklace-dark-simple-back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/gorod-minimalizm-reka-otrazhenie-noch-nochnoi-gorod.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/gory-mountains-nochnye-gory-rassvet-solntse-sun-rozovoe-soln.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/gory-noch-nochnye-gory-lis-sinii-lis-les-luna-polnolunie-pei.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/green-mountains-peizazh-zelenyi-peizazh-gory-nochnoe-nebo-no.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/kot-minimalizm-rycar-cats.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/les-gory-utro-ranok-rassvet-derevia-pokhod-prival-bashnia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/okeania-kaloyan-stoyanov-by-kaloyan-stoyanov-devushka-rusalk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/penguin-moon-cliff-shilouette-simple-background-black-backgr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/pineaple-yellow-bubbles.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/planet-satellites-orbit-space-simple-background-black-backgr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/shakhmaty-chess-peshka-ladia-kon-slon-ferz-korol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/sipukha-noch-olenevidnaia-sipukha-luna.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/usy-babochka-pechene.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/images/w-a-s-d-igrovye-knopki-klavishi-bukvy-klaviatura-wasd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/index_bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildApp/index_bundle.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselCompo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponent/CarouselCompo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storeDir/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeDir/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
@@ -147,7 +119,9 @@
       <workItem from="1607585437383" duration="2922000" />
       <workItem from="1607599517344" duration="5282000" />
       <workItem from="1607662907708" duration="16213000" />
-      <workItem from="1607754441060" duration="10622000" />
+      <workItem from="1607754441060" duration="11388000" />
+      <workItem from="1607934082073" duration="4725000" />
+      <workItem from="1608008429373" duration="17186000" />
     </task>
     <servers />
   </component>
@@ -170,37 +144,45 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="189" key="#Inspections" timestamp="1608029224860">
+      <screen x="86" y="0" width="1194" height="1024" />
+    </state>
+    <state x="309" y="189" key="#Inspections/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608029224860" />
+    <state x="428" y="335" key="#Notifications" timestamp="1608020564235">
+      <screen x="86" y="0" width="1194" height="1024" />
+    </state>
+    <state x="428" y="335" key="#Notifications/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608020564235" />
     <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607351078905">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/84.0.1282.768@84.0.1282.768" timestamp="1607351078905" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1607754599365">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1608030964575">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1607352912640" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599365" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1607754599364">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
+    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1608030964575">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599364" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1607754599364">
+    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
+    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1608030964575">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599364" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1607754599365">
+    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1608030964575">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607754599365" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
     <state x="1388" y="82" width="1188" height="699" maximized="true" key="dock-window-1" timestamp="1607680791037">
       <screen x="1280" y="0" width="1280" height="1024" />
     </state>
     <state x="1388" y="82" width="1188" height="699" maximized="true" key="dock-window-1/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607680791037" />
-    <state x="339" y="231" key="run.anything.popup" timestamp="1607687269818">
+    <state x="339" y="231" key="run.anything.popup" timestamp="1608021839016">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
-    <state x="339" y="231" key="run.anything.popup/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607687269818" />
+    <state x="339" y="231" key="run.anything.popup/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608021839016" />
   </component>
 </project>

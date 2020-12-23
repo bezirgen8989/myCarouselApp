@@ -17,8 +17,8 @@
 .itemBox{
     position: relative;
     min-width: 100%;
+    outline: none;
     /*border: 1px solid red;*/
-
 }
 
 .itemBox img{
