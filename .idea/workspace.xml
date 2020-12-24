@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/DotsCompo/DotsCompo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/DotsCompo/dotsCopmoStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/CarouselCompoNew.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/CarouselCompoNew.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storeDir/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeDir/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/CarouselComponentNew/ContentComponent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/CarouselComponentNew/DotsCompo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -60,13 +65,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myGit\NewFol\myCarouselApp\src\components\CarouselComponentNew\DotsCompo" />
       <recent name="D:\ReactWithCRA\myCarouselApp\src\components\CarouselComponentNew\ContentComponent" />
       <recent name="D:\ReactWithCRA\myCarouselApp\src\components\CarouselComponentNew" />
       <recent name="D:\ReactWithCRA\myCarouselApp\src\components\CarouselComponentHOC" />
       <recent name="D:\ReactWithCRA\myCarouselApp\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -99,9 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -119,9 +125,11 @@
       <workItem from="1607585437383" duration="2922000" />
       <workItem from="1607599517344" duration="5282000" />
       <workItem from="1607662907708" duration="16213000" />
-      <workItem from="1607754441060" duration="11388000" />
-      <workItem from="1607934082073" duration="4725000" />
-      <workItem from="1608008429373" duration="17186000" />
+      <workItem from="1607754441060" duration="10622000" />
+      <workItem from="1608541223166" duration="7935000" />
+      <workItem from="1608613109836" duration="19963000" />
+      <workItem from="1608699858834" duration="21764000" />
+      <workItem from="1608786541056" duration="18544000" />
     </task>
     <servers />
   </component>
@@ -144,45 +152,57 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="189" key="#Inspections" timestamp="1608029224860">
-      <screen x="86" y="0" width="1194" height="1024" />
-    </state>
-    <state x="309" y="189" key="#Inspections/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608029224860" />
-    <state x="428" y="335" key="#Notifications" timestamp="1608020564235">
-      <screen x="86" y="0" width="1194" height="1024" />
-    </state>
-    <state x="428" y="335" key="#Notifications/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608020564235" />
     <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607351078905">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="471" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/84.0.1282.768@84.0.1282.768" timestamp="1607351078905" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1608030964575">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom" timestamp="1608812359001">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1607352912640" />
-    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1608030964575">
+    <state width="1172" height="272" key="GridCell.Tab.0.bottom/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608812359001" />
+    <state width="1172" height="272" key="GridCell.Tab.0.center" timestamp="1608812359001">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1608030964575">
+    <state width="1172" height="272" key="GridCell.Tab.0.center/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608812359001" />
+    <state width="1172" height="272" key="GridCell.Tab.0.left" timestamp="1608812359001">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1608030964575">
+    <state width="1172" height="272" key="GridCell.Tab.0.left/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608812359001" />
+    <state width="1172" height="272" key="GridCell.Tab.0.right" timestamp="1608812359001">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
     <state width="1259" height="191" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1607352912639" />
-    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608030964575" />
-    <state x="1388" y="82" width="1188" height="699" maximized="true" key="dock-window-1" timestamp="1607680791037">
+    <state width="1172" height="272" key="GridCell.Tab.0.right/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608812359001" />
+    <state x="1511" y="287" width="937" height="403" maximized="true" key="dock-window-1" timestamp="1608787601701">
       <screen x="1280" y="0" width="1280" height="1024" />
     </state>
-    <state x="1388" y="82" width="1188" height="699" maximized="true" key="dock-window-1/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1607680791037" />
-    <state x="339" y="231" key="run.anything.popup" timestamp="1608021839016">
+    <state x="1511" y="287" width="937" height="403" maximized="true" key="dock-window-1/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608787601701" />
+    <state x="1492" y="84" width="865" height="699" maximized="true" key="dock-window-2" timestamp="1608714017753">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1492" y="84" width="865" height="699" maximized="true" key="dock-window-2/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608714017753" />
+    <state x="1475" y="0" width="865" height="699" key="dock-window-3" timestamp="1608714437965">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1475" y="0" width="865" height="699" key="dock-window-3/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608714437965" />
+    <state x="1280" y="43" width="940" height="699" maximized="true" key="dock-window-4" timestamp="1608722936642">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1280" y="43" width="940" height="699" maximized="true" key="dock-window-4/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608722936642" />
+    <state x="1920" y="0" width="640" height="1024" key="dock-window-5" timestamp="1608723585627">
+      <screen x="1280" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1920" y="0" width="640" height="1024" key="dock-window-5/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608723585627" />
+    <state x="339" y="231" key="run.anything.popup" timestamp="1608813497662">
       <screen x="86" y="0" width="1194" height="1024" />
     </state>
-    <state x="339" y="231" key="run.anything.popup/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608021839016" />
+    <state x="339" y="231" key="run.anything.popup/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608813497662" />
+    <state x="346" y="221" width="670" height="58" key="search.everywhere.popup" timestamp="1608793284751">
+      <screen x="86" y="0" width="1194" height="1024" />
+    </state>
+    <state x="346" y="221" width="670" height="58" key="search.everywhere.popup/86.0.1194.1024/1280.0.1280.1024@86.0.1194.1024" timestamp="1608793284751" />
   </component>
 </project>

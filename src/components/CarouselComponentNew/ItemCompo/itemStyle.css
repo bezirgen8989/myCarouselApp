@@ -6,7 +6,7 @@
     margin: 5px auto;
     display: inline-flex;
 }
-.lastImg, .firstImage{
+.lastImg, .firstImage, .itemBox{
     position: relative;
     min-width: 100%;
 }
@@ -17,8 +17,9 @@
 .itemBox{
     position: relative;
     min-width: 100%;
-    outline: none;
+
     /*border: 1px solid red;*/
+
 }
 
 .itemBox img{

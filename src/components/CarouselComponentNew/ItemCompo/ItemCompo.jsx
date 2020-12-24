@@ -1,103 +1,52 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import './itemStyle.css'
+import DotsCompo from "../DotsCompo/DotsCompo.jsx";
 
-const ItemsCompo = ({imageArr}) => {
-    const [x, setX] = useState(0);
-    const [transition, setTransition] = useState('1s ease');
-    const [activeImage, setActiveImage] = useState(1);
-
-    const [moving, setMoving] = useState(false);
-    const [diff, setDiff] = useState(0);
-    const [currentPosition, setCurrentPosition] = useState(0);
-
-
-    const [move, setMove] = useState(0);
-    const [initPosition, setInitPosition] = useState(0);
-
-    let slideToRight = () => {
-        if (activeImage === (imageArr.length + 1)) {
-            setX(-100)
-            setActiveImage(1)
-        } else {
-            setActiveImage(activeImage + 1)
-            setX((activeImage + 1) * -100)
-            setTransition('0.5s ease')
-            // console.log(activeImage)
-        }
-    }
-    let transitionEnd = () => {
-        if (activeImage === (imageArr.length + 1)) {
-            setX(-100);
-            setActiveImage(1)
-            setTransition('none');
-        }
-    }
-    let itemBoxStyle = {
-        transform: `translateX(${x}px)`,
-        // transition: transition
-    }
-    console.log(diff)
+const ItemsCompo = (props) => {
+    let styleWidth = useRef();
+    useEffect(() => {
+        console.log('compoDidMount')
+        return (
+            // props.setTranslateX(props.boxWidthStyle*2),
+            props.setBoxWidthStyle(-styleWidth.current.clientWidth)
+        )
+    }, [])
 
     return (
-        <div className={'carouselMainBox'} id={'track'}>
+        <div className={'carouselMainBox'} ref={styleWidth}>
 
-            {/*<div className='lastImg' style={itemBoxStyle}>*/}
-            {/*    <img src={imageArr[imageArr.length - 1].imageURL} alt={imageArr[imageArr.length - 1].id}/>*/}
-            {/*    <div><span className='info'>Name: {imageArr[imageArr.length - 1].info}</span></div>*/}
-            {/*    <div><span className='info'>Likes: {imageArr[imageArr.length - 1].likesCount}</span></div>*/}
-            {/*</div>*/}
+            <div className='lastImg' style={props.boxStyles} onTransitionEnd={props.transitionForLastImg}>
+                <img src={props.imageArr[props.imageArr.length - 1].imageURL}
+                     alt={props.imageArr[props.imageArr.length - 1].id} draggable={"false"}/>
+                <div><span className='info'>Name: {props.imageArr[props.imageArr.length - 1].info}</span></div>
+                <div><span className='info'>Likes: {props.imageArr[props.imageArr.length - 1].likesCount}</span>
+                </div>
+            </div>
 
-            {imageArr.map((item, id) => (
-                <div
-                    key={id} className='itemBox'
-                    style={itemBoxStyle}
-                    onTouchStart={(e)=>{
-                        setInitPosition(e.touches[0].clientX);
-                        setMoving(true)
-                    }}
-                    onTouchMove={(e)=>{
-                        if (moving) {
-                            const currentPosition = e.touches[0].clientX;
-                            setDiff(currentPosition - initPosition);
-                            setX(diff)
-                        }
-                    }}
-                    onTouchEnd={(e)=>{
-                        setMoving(false)
-                    }}
+            {props.imageArr.map((item, id) => (
+                <div key={id} className='itemBox' style={props.boxStyles}
+                     onTouchStart={props.moveStartFoo}
+                     onTouchMove={props.moveFoo}
+                     onTouchEnd={(event) => {
+                         props.moveEndFoo(event, -styleWidth.current.clientWidth)
+                     }}
 
-                    onMouseDown={(e) => {
-                        setInitPosition(e.pageX);
-                        setMoving(true);
-                        const transformMatrix = window.getComputedStyle(document.getElementById('track').getPropertyValue('transform'))
-                    }}
-
-                    onMouseMove={(e) => {
-                        if (moving) {
-                            setCurrentPosition(e.pageX);
-                            setDiff(currentPosition - initPosition);
-                            setX(diff)
-                        }
-                    }}
-
-                    onMouseUp={(e) => {
-                        setMoving(false)
-                    }}
-
+                     onMouseDown={props.moveStartFoo}
+                     onMouseMove={props.moveFoo}
+                     onMouseUp={props.moveEndFoo}
                 >
-                    <img src={item.imageURL} alt={item.id}/>
+                    <img src={item.imageURL} alt={item.id} draggable={"false"}/>
                     <div><span className='info'>Name: {item.info}</span></div>
                     <div><span className='info'>Likes: {item.likesCount}</span></div>
                 </div>
             ))}
 
-            {/*<div className='firstImage' style={itemBoxStyle} onTransitionEndCapture={transitionEnd}>*/}
-            {/*    <img src={imageArr[0].imageURL} alt={imageArr[0].id}/>*/}
-            {/*    <div><span className='info'>Name: {imageArr[0].info}</span></div>*/}
-            {/*    <div><span className='info'>Likes: {imageArr[0].likesCount}</span></div>*/}
-            {/*</div>*/}
-            <button className='right' onClick={slideToRight}>right</button>
-
+            <div className='firstImage' style={props.boxStyles}
+                 onTransitionEnd={props.transitionForFirstImg}>
+                <img src={props.imageArr[0].imageURL} alt={props.imageArr[0].id} draggable={"false"}/>
+                <div><span className='info'>Name: {props.imageArr[0].info}</span></div>
+                <div><span className='info'>Likes: {props.imageArr[0].likesCount}</span></div>
+            </div>
         </div>
     )
 }

@@ -38,7 +38,7 @@ const store = {
         { id: 4, imageURL: img5, info: 'pineaple', likesCount: Math.round(Math.random()*5 ) },
         { id: 5, imageURL: img6, info: 'shakhmaty', likesCount: Math.round(Math.random()*5 ) },
         { id: 6, imageURL: img7, info: 'sipukha', likesCount: Math.round(Math.random()*5 ) },
-    ]
+    ],
 }
 
 export default store;

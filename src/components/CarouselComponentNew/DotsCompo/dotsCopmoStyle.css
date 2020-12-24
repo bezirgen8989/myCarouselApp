@@ -1,0 +1,23 @@
+
+.dots{
+    background-color: silver;
+    cursor: pointer;
+}
+
+.dots_active{
+    border: 3px solid silver;
+    background-color: slategrey;
+}
+
+.dots, .dots_active{
+    width: 3vh;
+    height: 3vh;
+    margin-right: 3% ;
+    border-radius: 25%;
+    display: inline-flex;
+    content: '';
+}
+
+.dotsBox{
+    padding: 1%;
+}
