@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/DotsCompo/DotsCompo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/DotsCompo/dotsCopmoStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/CarouselCompoNew.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/CarouselCompoNew.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/ItemCompo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselComponentNew/ItemCompo/itemStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storeDir/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeDir/store.js" afterDir="false" />
-    </list>
+    <list default="true" id="c6179702-5a38-46d8-a8ab-1321edf9e3d1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +121,7 @@
       <workItem from="1608699858834" duration="21764000" />
       <workItem from="1608786541056" duration="18922000" />
       <workItem from="1609150915155" duration="2356000" />
+      <workItem from="1609158300046" duration="238000" />
     </task>
     <servers />
   </component>
