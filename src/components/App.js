@@ -21,7 +21,13 @@ const App = (props)=>{
 
     let boxStyles = {
         transform: `translateX(${translateX}px)`,
-        transition: transition
+        transition: transition,
+        opacity: 0.2
+    }
+    let boxStylesActive = {
+        transform: `translateX(${translateX}px)`,
+        transition: transition,
+        opacity: 1
     }
 
     let slideToRight = () => {
@@ -95,7 +101,6 @@ const App = (props)=>{
             setTranslateX(props.store.imageArr_2.length * boxWidthStyle)
             setActiveImage(props.store.imageArr_2.length-1)
         }
-        console.log(activeImage)
     }
     let transitionForFirstImg = () => {
         setTransition('none');
@@ -120,6 +125,7 @@ const App = (props)=>{
             <CarouselComponentNew
                 imageArr={props.store.imageArr_2}
                 boxStyles={boxStyles}
+                boxStylesActive={boxStylesActive}
                 setTranslateX={setTranslateX}
                 setActiveImage={setActiveImage}
                 activeImage={activeImage}

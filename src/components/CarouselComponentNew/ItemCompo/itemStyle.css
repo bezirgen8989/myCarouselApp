@@ -3,32 +3,26 @@
     position: relative;
     height: 50%;
     width: 50%;
-    margin: 5px auto;
     display: inline-flex;
 }
 .lastImg, .firstImage, .itemBox{
     position: relative;
     min-width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    transition: 0.1s;
 }
-.lastImg img, .firstImage img{
+.lastImg img, .firstImage img, .itemBox img{
     width: 96%;
 }
 
 .itemBox{
     position: relative;
     min-width: 100%;
-
-    /*border: 1px solid red;*/
-
-}
-
-.itemBox img{
-    width: 96%;
 }
 
 .info{
     color: white;
-
 }
 .right{
     position: absolute;

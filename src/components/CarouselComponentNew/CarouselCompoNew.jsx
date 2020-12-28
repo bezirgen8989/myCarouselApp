@@ -8,6 +8,7 @@ const CarouselComponentNew = (props) => {
         <div className='mainBox'>
             <h1>Carousel Component</h1>
             <ItemsCompo
+                boxStylesActive={props.boxStylesActive}
                 imageArr={props.imageArr}
                 boxStyles={props.boxStyles}
                 setTranslateX={props.setTranslateX}

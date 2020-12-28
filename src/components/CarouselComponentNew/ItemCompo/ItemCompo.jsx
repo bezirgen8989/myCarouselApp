@@ -5,16 +5,27 @@ import DotsCompo from "../DotsCompo/DotsCompo.jsx";
 const ItemsCompo = (props) => {
     let styleWidth = useRef();
     useEffect(() => {
-        console.log('compoDidMount')
         return (
             props.setBoxWidthStyle(-styleWidth.current.clientWidth)
         )
     }, [])
 
     return (
-        <div className={'carouselMainBox'} ref={styleWidth}>
+        <div className={'carouselMainBox'}
+             ref={styleWidth}
+             onMouseDown={props.moveStartFoo}
+             onMouseMove={props.moveFoo}
+             onMouseUp={props.moveEndFoo}
 
-            <div className='lastImg' style={props.boxStyles} onTransitionEnd={props.transitionForLastImg}>
+             onTouchStart={props.moveStartFoo}
+             onTouchMove={props.moveFoo}
+             onTouchEnd={props.moveEndFoo}
+        >
+
+            <div
+                className='lastImg'
+                style={props.boxStyles}
+                onTransitionEnd={props.transitionForLastImg}>
                 <img src={props.imageArr[props.imageArr.length - 1].imageURL}
                      alt={props.imageArr[props.imageArr.length - 1].id} draggable={"false"}/>
                 <div><span className='info'>Name: {props.imageArr[props.imageArr.length - 1].info}</span></div>
@@ -23,16 +34,13 @@ const ItemsCompo = (props) => {
             </div>
 
             {props.imageArr.map((item, id) => (
-                <div key={id} className='itemBox' style={props.boxStyles}
-                     onTouchStart={props.moveStartFoo}
-                     onTouchMove={props.moveFoo}
-                     onTouchEnd={(event) => {
-                         props.moveEndFoo(event, -styleWidth.current.clientWidth)
-                     }}
+                <div
+                    key={id} className='itemBox'
+                    // style={props.boxStyles}
+                    style={props.activeImage === id
+                        ? props.boxStylesActive : props.boxStyles
 
-                     onMouseDown={props.moveStartFoo}
-                     onMouseMove={props.moveFoo}
-                     onMouseUp={props.moveEndFoo}
+                    }
                 >
                     <img src={item.imageURL} alt={item.id} draggable={"false"}/>
                     <div><span className='info'>Name: {item.info}</span></div>
