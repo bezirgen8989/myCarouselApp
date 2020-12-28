@@ -7,7 +7,6 @@ const ItemsCompo = (props) => {
     useEffect(() => {
         console.log('compoDidMount')
         return (
-            // props.setTranslateX(props.boxWidthStyle*2),
             props.setBoxWidthStyle(-styleWidth.current.clientWidth)
         )
     }, [])

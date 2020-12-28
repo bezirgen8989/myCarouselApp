@@ -5,8 +5,8 @@
 }
 
 .dots_active{
-    border: 5px solid white;
-    background: none;
+    border: 3px solid silver;
+    background-color: slategrey;
 }
 
 .dots, .dots_active{
