@@ -10,16 +10,7 @@ const ItemsCompo = (props) => {
     }, [])
 
     return (
-        <div className={'carouselMainBox'}
-             ref={styleWidth}
-             onMouseDown={props.moveStartFoo}
-             onMouseMove={props.moveFoo}
-             onMouseUp={props.moveEndFoo}
-
-             onTouchStart={props.moveStartFoo}
-             onTouchMove={props.moveFoo}
-             onTouchEnd={props.moveEndFoo}
-        >
+        <div className={'carouselMainBox'} ref={styleWidth}>
 
             <div
                 className='lastImg'
@@ -40,6 +31,13 @@ const ItemsCompo = (props) => {
                         ? props.boxStylesActive : props.boxStyles
 
                     }
+                    onMouseDown={props.moveStartFoo}
+                    onMouseMove={props.moveFoo}
+                    onMouseUp={props.moveEndFoo}
+
+                    onTouchStart={props.moveStartFoo}
+                    onTouchMove={props.moveFoo}
+                    onTouchEnd={props.moveEndFoo}
                 >
                     <img src={item.imageURL} alt={item.id} draggable={"false"}/>
                     <div><span className='info'>Name: {item.info}</span></div>
