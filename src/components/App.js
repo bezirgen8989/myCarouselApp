@@ -12,6 +12,7 @@ const App = (props)=>{
     const [initPosition, setInitPosition] = useState(0);
     const [mouseMove, setMouseMove] = useState(false);
     const [transform, setTransform] = useState(0);
+    
     useEffect(()=>{
         return (
             setTransition('none'),

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './carouselNewStyle.css'
 import ItemsCompo from "./ItemCompo/ItemCompo.jsx";
 import DotsCompo from "./DotsCompo/DotsCompo.jsx";

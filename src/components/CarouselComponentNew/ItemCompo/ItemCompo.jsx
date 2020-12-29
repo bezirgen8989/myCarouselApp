@@ -26,11 +26,7 @@ const ItemsCompo = (props) => {
             {props.imageArr.map((item, id) => (
                 <div
                     key={id} className='itemBox'
-                    // style={props.boxStyles}
-                    style={props.activeImage === id
-                        ? props.boxStylesActive : props.boxStyles
-
-                    }
+                    style={props.activeImage === id ? props.boxStylesActive : props.boxStyles}
                     onMouseDown={props.moveStartFoo}
                     onMouseMove={props.moveFoo}
                     onMouseUp={props.moveEndFoo}
