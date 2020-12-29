@@ -1,6 +1,5 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useEffect, useRef} from "react";
 import './itemStyle.css'
-import DotsCompo from "../DotsCompo/DotsCompo.jsx";
 
 const ItemsCompo = (props) => {
     let styleWidth = useRef();
