@@ -1,14 +1,19 @@
-import React from 'react';
-import './dotsCopmoStyle.css'
+import React, {useCallback} from 'react';
+import './dots.css'
 
-const DotsCompo = (props) => {
+const Dots = (props) => {
+    //нужно почитать
+    const slideToDotId = useCallback((id)=>{
+        props.dotsFoo(id)
+    }, [props.dotsFoo]);
+    
     return (
         <div className='dotsMainBox'>
             <div className='dotsBox'>
                 {props.imageArr.map((items, id) => {
                         return (
                             <span
-                                onClick={() => { props.dotsFoo(id) }}
+                                onClick={()=>slideToDotId(id)}
                                 key={items.id}
                                 className={id === props.activeImage ? 'dots_active' : 'dots'}
                             ></span>
@@ -19,4 +24,4 @@ const DotsCompo = (props) => {
         </div>
     )
 }
-export default DotsCompo;
+export default Dots;

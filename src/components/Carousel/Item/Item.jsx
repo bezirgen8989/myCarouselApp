@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from "react";
-import './itemStyle.css'
+import './item.css'
 
 const ItemsCompo = (props) => {
     let styleWidth = useRef();

@@ -1,9 +1,11 @@
 .carouselMainBox{
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     position: relative;
     height: 50%;
     width: 50%;
     display: inline-flex;
+    box-shadow: 0 0 20px silver;
+    border-radius: 2%;
 }
 .lastImg, .firstImage, .itemBox{
     position: relative;
@@ -23,6 +25,7 @@
 
 .info{
     color: white;
+    font-size: 150%;
 }
 .right{
     position: absolute;
