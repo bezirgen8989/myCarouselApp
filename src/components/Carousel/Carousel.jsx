@@ -43,7 +43,7 @@ const CarouselComponentNew = (props) => {
         setTransition('0.5s');
     }
 
-    const moveStartFoo = (event)=>{
+    const swipeMoveStart = (event)=>{
         if (event.type === "mousedown"){
             setInitPosition(event.pageX);
             setMouseMove(true);
@@ -62,7 +62,7 @@ const CarouselComponentNew = (props) => {
             }
         }
     }
-    const moveFoo = (event)=>{
+    const swipeMove = (event)=>{
         if (event.type === "touchmove"){
             if(mouseMove){
                 let currentPos = event.targetTouches[0].clientX;
@@ -77,7 +77,7 @@ const CarouselComponentNew = (props) => {
             }
         }
     }
-    const moveEndFoo = (event)=>{
+    const swipeMoveEnd = (event)=>{
         if (event.type === "mouseup"){
             setTransition('0.5s')
             setMouseMove(false);
@@ -95,23 +95,23 @@ const CarouselComponentNew = (props) => {
                 slideToLeft();
             }
         }
+        console.log(activeImage)
     }
 
     let transitionForLastImg = () => {
         setTransition('none');
         if (activeImage === -1) {
-            setTranslateX(props.imageArr.length * boxWidthStyle)
-            setActiveImage(props.imageArr.length-1)
+            setTranslateX(props.itemsArr.length * boxWidthStyle)
+            setActiveImage(props.itemsArr.length-1)
         }
     }
     let transitionForFirstImg = () => {
         setTransition('none');
-        if (translateX <= boxWidthStyle * (props.imageArr.length + 1)) {
+        if (translateX <= boxWidthStyle * (props.itemsArr.length + 1)) {
             setTranslateX(boxWidthStyle)
             setActiveImage(0)
         }
     }
-
     let dotsFoo = (imageId) => {
         if (imageId <= 1){
             setTranslateX((imageId + 1) * boxWidthStyle)
@@ -127,21 +127,21 @@ const CarouselComponentNew = (props) => {
             <Items
                 boxStylesActive={boxStylesActive}
                 boxStyles={boxStyles}
-                imageArr={props.imageArr}
+                itemsArr={props.itemsArr}
                 setTranslateX={setTranslateX}
                 setActiveImage={setActiveImage}
                 activeImage={activeImage}
                 transitionForLastImg={transitionForLastImg}
-                moveStartFoo={moveStartFoo}
-                moveFoo={moveFoo}
-                moveEndFoo={moveEndFoo}
+                swipeMoveStart={swipeMoveStart}
+                swipeMove={swipeMove}
+                swipeMoveEnd={swipeMoveEnd}
                 transitionForFirstImg={transitionForFirstImg}
                 setTransition={setTransition}
                 setBoxWidthStyle={setBoxWidthStyle}
             />
 
             <Dots
-                imageArr={props.imageArr}
+                itemsArr={props.itemsArr}
                 dotsFoo={dotsFoo}
                 activeImage={activeImage}
             />

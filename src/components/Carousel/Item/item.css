@@ -18,6 +18,12 @@
     width: 96%;
 }
 
+.itemBox a{
+    text-decoration: none;
+    color: wheat;
+    cursor: pointer;
+}
+
 .itemBox{
     position: relative;
     min-width: 100%;

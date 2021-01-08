@@ -10,7 +10,7 @@ const Dots = (props) => {
     return (
         <div className='dotsMainBox'>
             <div className='dotsBox'>
-                {props.imageArr.map((items, id) => {
+                {props.itemsArr.map((items, id) => {
                         return (
                             <span
                                 onClick={()=>slideToDotId(id)}
