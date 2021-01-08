@@ -16,8 +16,7 @@ const CarouselComponentNew = (props) => {
 
     useEffect(()=>{
         return (
-            setTransition('none'),
-                setTranslateX(boxWidthStyle)
+            setTransition('none'), setTranslateX(boxWidthStyle)
         )
     },[boxWidthStyle])
 

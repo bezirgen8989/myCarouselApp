@@ -14,7 +14,7 @@
     padding-bottom: 1%;
     transition: 0.1s;
 }
-.lastImg img, .firstImage img, .itemBox img{
+.lastImg img, video .firstImage img, .itemBox img, video{
     width: 96%;
 }
 
