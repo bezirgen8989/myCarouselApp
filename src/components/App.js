@@ -14,7 +14,7 @@ const itemsArr = [
     { id: 4, imageURL: <img src={img3} alt={'city-minimalism-river'} draggable={'false'}/>, info: 'sipukha', likesCount: Math.round(Math.random()*5 ) },
     { id: 5, imageURL: <h2>Header 2</h2>, info: 'Header 2', likesCount: Math.round(Math.random()*5 ) },
     { id: 6, imageURL:
-            <video controls preload="none" draggable={'false'} autoPlay={true}>
+            <video controls width="800" height="400" preload="none" draggable={'false'} autoPlay={'autoplay'}>
                 <source src="/video/simon_fly.mp4" type="video/mp4"/>
             </video>
 
