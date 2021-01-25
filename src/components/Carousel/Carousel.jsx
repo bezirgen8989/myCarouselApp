@@ -9,7 +9,7 @@ const Carousel = (props) => {
     const [translateX, setTranslateX] = useState(0);
     const [transition, setTransition] = useState('0.5s');
     const [activeItem, setActiveItem] = useState(0);
-    // mose event states
+    // mose and touch events states
     const [initPosition, setInitPosition] = useState(0);
     const [mouseMove, setMouseMove] = useState(false);
     const [transform, setTransform] = useState(0);
@@ -38,7 +38,7 @@ const Carousel = (props) => {
     }
     let slideToLeft = () => {
         setActiveItem(activeItem - 1)
-        setTranslateX((activeItem) * boxWidthStyle);
+        setTranslateX(activeItem * boxWidthStyle);
         setTransition('0.5s');
     }
 
@@ -61,6 +61,7 @@ const Carousel = (props) => {
             }
         }
     }
+
     const swipeMove = (event) => {
         if (event.type === "touchmove") {
             if (mouseMove) {
@@ -96,14 +97,14 @@ const Carousel = (props) => {
         }
     }
 
-    let transitionForLastImg = () => {
+    let transitionForLastItem = () => {
         setTransition('none');
         if (activeItem === -1) {
             setTranslateX(props.elementsArr.length * boxWidthStyle)
             setActiveItem(props.elementsArr.length - 1)
         }
     }
-    let transitionForFirstImg = () => {
+    let transitionForFirstItem = () => {
         setTransition('none');
         if (translateX <= boxWidthStyle * (props.elementsArr.length + 1)) {
             setTranslateX(boxWidthStyle)
@@ -129,11 +130,11 @@ const Carousel = (props) => {
                 setTranslateX={setTranslateX}
                 setActiveItem={setActiveItem}
                 activeItem={activeItem}
-                transitionForLastImg={transitionForLastImg}
+                transitionForLastItem={transitionForLastItem}
                 swipeMoveStart={swipeMoveStart}
                 swipeMove={swipeMove}
                 swipeMoveEnd={swipeMoveEnd}
-                transitionForFirstImg={transitionForFirstImg}
+                transitionForFirstItem={transitionForFirstItem}
                 setTransition={setTransition}
                 setBoxWidthStyle={setBoxWidthStyle}
             />

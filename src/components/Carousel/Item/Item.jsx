@@ -15,7 +15,7 @@ const Items = (props) => {
             <div
                 className='lastImg'
                 style={props.boxStyles} draggable={'false'}
-                onTransitionEnd={props.transitionForLastImg}>
+                onTransitionEnd={props.transitionForLastItem}>
                 {props.elementsArr[props.elementsArr.length - 1].element}
                 <div><span className='info'>Name: {props.elementsArr[props.elementsArr.length - 1].info}</span></div>
                 <div><span className='info'>Likes: {props.elementsArr[props.elementsArr.length - 1].likesCount}</span>
@@ -43,7 +43,7 @@ const Items = (props) => {
             ))}
 
             <div className='firstImage' style={props.boxStyles}
-                 onTransitionEnd={props.transitionForFirstImg} draggable={'false'}>
+                 onTransitionEnd={props.transitionForFirstItem} draggable={'false'}>
                 {props.elementsArr[0].element}
                 <div><span className='info'>Name: {props.elementsArr[0].info}</span></div>
                 <div><span className='info'>Likes: {props.elementsArr[0].likesCount}</span></div>
