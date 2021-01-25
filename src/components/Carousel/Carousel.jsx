@@ -3,22 +3,22 @@ import './carousel.css'
 import Items from "./Item/Item.jsx";
 import Dots from "./Dots/Dots.jsx";
 
-const CarouselComponentNew = (props) => {
+const Carousel = (props) => {
     const [boxWidthStyle, setBoxWidthStyle] = useState(0);
     //swipe states
     const [translateX, setTranslateX] = useState(0);
     const [transition, setTransition] = useState('0.5s');
-    const [activeImage, setActiveImage] = useState(0);
+    const [activeItem, setActiveItem] = useState(0);
     // mose event states
     const [initPosition, setInitPosition] = useState(0);
     const [mouseMove, setMouseMove] = useState(false);
     const [transform, setTransform] = useState(0);
 
-    useEffect(()=>{
+    useEffect(() => {
         return (
             setTransition('none'), setTranslateX(boxWidthStyle)
         )
-    },[boxWidthStyle])
+    }, [boxWidthStyle])
 
     let boxStyles = {
         transform: `translateX(${translateX}px)`,
@@ -32,92 +32,91 @@ const CarouselComponentNew = (props) => {
     }
 
     let slideToRight = () => {
-        setActiveImage(activeImage + 1)
-        setTranslateX((activeImage + 2) * boxWidthStyle);
+        setActiveItem(activeItem + 1)
+        setTranslateX((activeItem + 2) * boxWidthStyle);
         setTransition('0.5s');
     }
     let slideToLeft = () => {
-        setActiveImage(activeImage - 1)
-        setTranslateX((activeImage) * boxWidthStyle);
+        setActiveItem(activeItem - 1)
+        setTranslateX((activeItem) * boxWidthStyle);
         setTransition('0.5s');
     }
 
-    const swipeMoveStart = (event)=>{
-        if (event.type === "mousedown"){
+    const swipeMoveStart = (event) => {
+        if (event.type === "mousedown") {
             setInitPosition(event.pageX);
             setMouseMove(true);
             setTransition('none')
             const transformMemory = window.getComputedStyle(document.querySelector('.itemBox')).getPropertyValue('transform');
-            if (transformMemory !== 'none'){
+            if (transformMemory !== 'none') {
                 setTransform(parseInt(transformMemory.split(',')[4].trim()))
             }
-        }else if (event.type === "touchstart"){
+        } else if (event.type === "touchstart") {
             setInitPosition(event.targetTouches[0].clientX);
             setMouseMove(true);
             setTransition('none')
             const transformMemory = window.getComputedStyle(document.querySelector('.itemBox')).getPropertyValue('transform');
-            if (transformMemory !== 'none'){
+            if (transformMemory !== 'none') {
                 setTransform(parseInt(transformMemory.split(',')[4].trim()))
             }
         }
     }
-    const swipeMove = (event)=>{
-        if (event.type === "touchmove"){
-            if(mouseMove){
+    const swipeMove = (event) => {
+        if (event.type === "touchmove") {
+            if (mouseMove) {
                 let currentPos = event.targetTouches[0].clientX;
                 let diff = currentPos - initPosition;
                 setTranslateX(transform + diff)
             }
-        } else if (event.type === "mousemove"){
-            if(mouseMove){
+        } else if (event.type === "mousemove") {
+            if (mouseMove) {
                 let currentPos = event.pageX;
                 let diff = currentPos - initPosition;
                 setTranslateX(transform + diff)
             }
         }
     }
-    const swipeMoveEnd = (event)=>{
-        if (event.type === "mouseup"){
+    const swipeMoveEnd = (event) => {
+        if (event.type === "mouseup") {
             setTransition('0.5s')
             setMouseMove(false);
-            if(event.pageX < initPosition){
+            if (event.pageX < initPosition) {
                 slideToRight();
-            }else if(event.pageX > initPosition){
+            } else if (event.pageX > initPosition) {
                 slideToLeft();
             }
-        }else if (event.type === "touchend"){
+        } else if (event.type === "touchend") {
             setTransition('0.5s')
             setMouseMove(false);
-            if(event.changedTouches[0].clientX < initPosition){
+            if (event.changedTouches[0].clientX < initPosition) {
                 slideToRight();
-            }else if(event.changedTouches[0].clientX > initPosition){
+            } else if (event.changedTouches[0].clientX > initPosition) {
                 slideToLeft();
             }
         }
-        console.log(activeImage)
     }
 
     let transitionForLastImg = () => {
         setTransition('none');
-        if (activeImage === -1) {
-            setTranslateX(props.itemsArr.length * boxWidthStyle)
-            setActiveImage(props.itemsArr.length-1)
+        if (activeItem === -1) {
+            setTranslateX(props.elementsArr.length * boxWidthStyle)
+            setActiveItem(props.elementsArr.length - 1)
         }
     }
     let transitionForFirstImg = () => {
         setTransition('none');
-        if (translateX <= boxWidthStyle * (props.itemsArr.length + 1)) {
+        if (translateX <= boxWidthStyle * (props.elementsArr.length + 1)) {
             setTranslateX(boxWidthStyle)
-            setActiveImage(0)
+            setActiveItem(0)
         }
     }
     let dotsFoo = (imageId) => {
-        if (imageId <= 1){
+        if (imageId <= 1) {
             setTranslateX((imageId + 1) * boxWidthStyle)
-        }else{
-            setTranslateX((imageId+1) * boxWidthStyle)
+        } else {
+            setTranslateX((imageId + 1) * boxWidthStyle)
         }
-        setActiveImage(imageId)
+        setActiveItem(imageId)
         setTransition('0.5s');
     }
     return (
@@ -126,10 +125,10 @@ const CarouselComponentNew = (props) => {
             <Items
                 boxStylesActive={boxStylesActive}
                 boxStyles={boxStyles}
-                itemsArr={props.itemsArr}
+                elementsArr={props.elementsArr}
                 setTranslateX={setTranslateX}
-                setActiveImage={setActiveImage}
-                activeImage={activeImage}
+                setActiveItem={setActiveItem}
+                activeItem={activeItem}
                 transitionForLastImg={transitionForLastImg}
                 swipeMoveStart={swipeMoveStart}
                 swipeMove={swipeMove}
@@ -140,12 +139,12 @@ const CarouselComponentNew = (props) => {
             />
 
             <Dots
-                itemsArr={props.itemsArr}
+                elementsArr={props.elementsArr}
                 dotsFoo={dotsFoo}
-                activeImage={activeImage}
+                activeItem={activeItem}
             />
         </div>
     )
 }
 
-export default CarouselComponentNew;
+export default Carousel;

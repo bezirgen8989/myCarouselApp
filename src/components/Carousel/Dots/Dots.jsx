@@ -2,7 +2,6 @@ import React, {useCallback} from 'react';
 import './dots.css'
 
 const Dots = (props) => {
-    //нужно почитать
     const slideToDotId = useCallback((id)=>{
         props.dotsFoo(id)
     }, [props.dotsFoo]);
@@ -10,12 +9,12 @@ const Dots = (props) => {
     return (
         <div className='dotsMainBox'>
             <div className='dotsBox'>
-                {props.itemsArr.map((items, id) => {
+                {props.elementsArr.map((items, id) => {
                         return (
                             <span
                                 onClick={()=>slideToDotId(id)}
                                 key={items.id}
-                                className={id === props.activeImage ? 'dots_active' : 'dots'}
+                                className={id === props.activeItem ? 'dots_active' : 'dots'}
                             ></span>
                         )
                     })

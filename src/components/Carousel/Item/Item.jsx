@@ -16,16 +16,16 @@ const Items = (props) => {
                 className='lastImg'
                 style={props.boxStyles} draggable={'false'}
                 onTransitionEnd={props.transitionForLastImg}>
-                {props.itemsArr[props.itemsArr.length - 1].imageURL}
-                <div><span className='info'>Name: {props.itemsArr[props.itemsArr.length - 1].info}</span></div>
-                <div><span className='info'>Likes: {props.itemsArr[props.itemsArr.length - 1].likesCount}</span>
+                {props.elementsArr[props.elementsArr.length - 1].element}
+                <div><span className='info'>Name: {props.elementsArr[props.elementsArr.length - 1].info}</span></div>
+                <div><span className='info'>Likes: {props.elementsArr[props.elementsArr.length - 1].likesCount}</span>
                 </div>
             </div>
 
-            {props.itemsArr.map((item, id) => (
+            {props.elementsArr.map((item, id) => (
                 <div
                     key={id} className='itemBox'
-                    style={props.activeImage === id ? props.boxStylesActive : props.boxStyles}
+                    style={props.activeItem === id ? props.boxStylesActive : props.boxStyles}
                     draggable={'false'}
 
                     onMouseDown={props.swipeMoveStart}
@@ -36,7 +36,7 @@ const Items = (props) => {
                     onTouchMove={props.swipeMove}
                     onTouchEnd={props.swipeMoveEnd}
                 >
-                    {item.imageURL}
+                    {item.element}
                     <div><span className='info'>Name: {item.info}</span></div>
                     <div><span className='info'>Likes: {item.likesCount}</span></div>
                 </div>
@@ -44,9 +44,9 @@ const Items = (props) => {
 
             <div className='firstImage' style={props.boxStyles}
                  onTransitionEnd={props.transitionForFirstImg} draggable={'false'}>
-                {props.itemsArr[0].imageURL}
-                <div><span className='info'>Name: {props.itemsArr[0].info}</span></div>
-                <div><span className='info'>Likes: {props.itemsArr[0].likesCount}</span></div>
+                {props.elementsArr[0].element}
+                <div><span className='info'>Name: {props.elementsArr[0].info}</span></div>
+                <div><span className='info'>Likes: {props.elementsArr[0].likesCount}</span></div>
             </div>
         </div>
     )
